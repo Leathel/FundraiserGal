@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="FundraiserGal.master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="/css/foundation.css" />
+    <link rel="stylesheet" href="/css/master.css" />
+    <script src="/js/vendor/modernizr.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="mainBanner">
+    </div>
+    <div id="test" data-magellan-expedition="fixed">
+        <div class="icon-bar five-up ">
+            <a href="/pages/Fundraising.aspx" class="item">
+                <img src="/assets/img/Logos/dollaricon.png" />
+                <label>Fundraising</label>
+            </a>
+            <a href="/pages/Products.aspx" class="item">
+                <img src="/assets/img/Logos/carticon.png" />
+                <label>Products</label>
+            </a>
+            <a href="/Home.aspx" class="item">
+                <img src="/assets/img/Logos/homeicon.png" />
+                <label>Home</label>
+            </a>
+            <%--////////////This and Social Media will link to home page and will float down to the bottom--%>
+            <a class="item">
+                <img src="/assets/img/Logos/questionicon.png"/>
+                <label>About</label>
+            </a>
+            <a  href="/pages/Blogs.aspx"class="item">
+                <img src="/assets/img/Logos/signalicon.png" />
+                <label>Blog</label>
+            </a>
+        </div>
+    </div>
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <%--////////////MAIN PAGE STUFF HERE//////////////////////--%>
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+    <div class="small-12 columns" id="footer">
+        <%--<div class="small-12 columns" id="spacer50">
+        </div>
+        <hr />--%>
+        
+            <div class="small-12 columns show-for-small-only">
+                <div id="userInfo">
+                <div class="small-12 medium-5 columns">
+                    <h1 id="mainTitle">Contact</h1>
+                    <p><strong>Phone:</strong> 905-555-5555</p>
+                    <br />
+                    <p><strong>Email:</strong> email@adress.com</p>
+                </div>
+                <div class="small-12 medium-6 columns">
+                    <h1 id="mainTitle">Send me a message</h1>
+                    <h3 id="mainTitle">Your name</h3>
+                    <input type="text" />
+                    <h3 id="mainTitle">Your phone number</h3>
+                    <input type="tel" />
+                    <h3 id="mainTitle">Your email</h3>
+                    <input type="email" />
+                    <h3 id="mainTitle">Your address</h3>
+                    <input type="text" />
+                    <h3 id="mainTitle">Your message</h3>
+                    <textarea rows="5"></textarea>
+                    <a href="#" class="button success">Submit</a>
+                </div>
+            </div>
+            </div>
+            <div class="medium-7 columns">
+                <p id="footerTrademark">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                </p>
+            </div>
+            <div class="medium-5 columns show-for-medium-up">
+                 <div id="userInfo">
+                <div class="small-12 columns">
+                    <h1 id="mainTitle">Contact</h1>
+                    <p><strong>Phone:</strong> 905-555-5555</p>
+                    <br />
+                    <p><strong>Email:</strong> email@adress.com</p>
+                </div>
+                <div class="small-12 columns">
+                    <h1 id="mainTitle">Send me a message</h1>
+                    <h3 id="mainTitle">Your name</h3>
+                    <input type="text" />
+                    <h3 id="mainTitle">Your phone number</h3>
+                    <input type="tel" />
+                    <h3 id="mainTitle">Your email</h3>
+                    <input type="email" />
+                    <h3 id="mainTitle">Your address</h3>
+                    <input type="text" />
+                    <h3 id="mainTitle">Your message</h3>
+                    <textarea rows="5"></textarea>
+                    <a href="#" class="button success">Submit</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    <script src="/js/vendor/jquery.js"></script>
+    <script src="/js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+    <script src="/js/foundation/foundation.js"></script>
+    <script src="/js/foundation/foundation.magellan.js"></script>
+    <script src="/js/foundation/foundation.topbar.js"></script>
+</body>
+
+</html>
