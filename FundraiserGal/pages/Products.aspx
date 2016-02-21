@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="row">
+    <div class="row" id="mainContent">
         <h1 id="mainTitle">Products
         </h1>
         <hr />
@@ -27,12 +27,13 @@
             </p>
         </a>
         <div id="spacer25" class="small-12 columns"></div>
+       
         <hr />
         <div id="spacer25" class="small-12 columns"></div>
         <a href="KDKnife.aspx" class="small-12 medium-6 columns">
             <div class="small-12 coolumns">
-                <img class="show-for-medium-down" src="../assets/img/pics/knifecroppedsmall.png" />
-                <img class="show-for-large-up" src="../assets/img/pics/knifecropped.png" />
+                <%--<img class="show-for-medium-down" src="../assets/img/pics/knifecroppedsmall.png" />--%>
+                <img src="../assets/img/pics/knifecropped.png" />
             </div>
             <h2 class="small-centered columns" id="secondaryTitle">
                 KD Knife
@@ -46,14 +47,13 @@
         </div>
         <a href="KDMop.aspx" class="small-12 medium-6 columns">
             <div class="small-12 coolumns">
-                <img class="show-for-medium-down" src="../assets/img/pics/mopcroppedsmall.png" />
-                <img class="show-for-large-up" src="../assets/img/pics/mopcropped.png" />
+                <%--<img class="show-for-medium-down" src="../assets/img/pics/mopcroppedsmall.png" />--%>
+                <img src="../assets/img/pics/mopcropped.png" />
             </div>
             <h2 class="small-centered columns" id="secondaryTitle">KD Mop
             </h2>
             <p class="small-12 columns">
-                <strong>This</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+               This microfiber mop works using the same technology as the KD Cloth.  The KD Mop dries in an instant and leaves no streaks or spots.  No chemicals are required - use only water. 
             </p>
         </a>
         <div class="small-12 columns" id="spacer50">

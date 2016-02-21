@@ -1,10 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/master.Master" AutoEventWireup="true" CodeBehind="KDMop.aspx.cs" Inherits="FundraiserGal.pages.KDMop" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    
-      <div class="row">
+
+    <div class="row" id="mainContent">
         <asp:Label ID="ProductNameLabel" runat="server" Text="">
             <h1 id="mainTitle">KD Mop</h1>
         </asp:Label>
@@ -13,11 +14,7 @@
         <%--<asp:Image ID="ProdcutImage" runat="server" ImageUrl="~/assets/img/Logos/kdcloth.png" class="small-12 columns" />--%>
         <asp:Label ID="ProductDescriptionLabel" runat="server" Text="Label">
             <p id="mainContent" class="small-12 columns">
- Product Description will go here Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Product Description will go here Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris vProduct Description will go here Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Product Description will go here Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+This microfiber mop works using the same technology as the KD Cloth.  The KD Mop dries in an instant and leaves no streaks or spots.  No chemicals are required - use only water.  Soak the mop in water and wring thoroughly.  Machine wash on delicate cycle using no fabric softener.  Air dry.  Fits any standard mop handle.$0Great for laminates, hardwood, tile and more.
             </p>
         </asp:Label>
         <div class="small-12 columns">
@@ -46,11 +43,10 @@
 
                 </asp:HyperLink>
             </div>
-            
-            
+
+
         </div>
         <div class="small-12 columns" id="spacer50">
-
         </div>
         <hr />
         <div id="spacer25" class="small-12 columns">
@@ -58,60 +54,62 @@
         <h1 class="small-12 columns" id="secondaryTitle">Order Now
         </h1>
 
-        <div class="small-12 medium-4 columns">
+        <div class="small-12 medium-3 columns">
             <ul class="pricing-table">
-                <li class="title">  
-                    <asp:Label ID="priceTableTitle" runat="server" Text="Just 1"></asp:Label>
+                <li class="title">
+                    <asp:Label ID="priceTableTitle" runat="server" Text="Buy 1"></asp:Label>
                 </li>
                 <li class="price">
-                    <asp:Label ID="priceTablePrice" runat="server" Text="$15.99"></asp:Label>
+                    <asp:Label ID="priceTablePrice" runat="server" Text="$19.00"></asp:Label>
                 </li>
                 <li class="description">
-                    <asp:Label ID="priceTableDescription" runat="server" Text="Here is what you get"></asp:Label>
-                </li>
-                <li class="bullet-item">
-                    <asp:Label ID="priceTableBullet" runat="server" Text="More Info can go here"></asp:Label>
+                    <asp:Label ID="priceTableDescription" runat="server" Text="+ Shipping"></asp:Label>
                 </li>
                 <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
             </ul>
         </div>
-
-        <%--/////////////Second and third table to be removed when user control takes place////////////--%>
-        <div class="small-12 medium-4 columns">
+        <div class="small-12 medium-3 columns">
             <ul class="pricing-table">
-                <li class="title">  
-                    <asp:Label ID="Label1" runat="server" Text="Buy 5"></asp:Label>
+                <li class="title">
+                    <asp:Label ID="Label1" runat="server" Text="Buy 2"></asp:Label>
                 </li>
                 <li class="price">
-                    <asp:Label ID="Label2" runat="server" Text="$30.99"></asp:Label>
+                    <asp:Label ID="Label2" runat="server" Text="$34.00"></asp:Label>
                 </li>
                 <li class="description">
-                    <asp:Label ID="Label3" runat="server" Text="Here is what you get"></asp:Label>
-                </li>
-                <li class="bullet-item">
-                    <asp:Label ID="Label4" runat="server" Text="More Info can go here"></asp:Label>
+                    <asp:Label ID="Label3" runat="server" Text="+ Shipping"></asp:Label>
                 </li>
                 <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
             </ul>
         </div>
-        <div class="small-12 medium-4 columns">
+        <div class="small-12 medium-3 columns">
             <ul class="pricing-table">
-                <li class="title">  
-                    <asp:Label ID="Label5" runat="server" Text="Buy 1500 thousand you cheap <strong>prick!</strong>"></asp:Label>
+                <li class="title">
+                    <asp:Label ID="Label4" runat="server" Text="Buy 3"></asp:Label>
                 </li>
                 <li class="price">
-                    <asp:Label ID="Label6" runat="server" Text="$40.99"></asp:Label>
+                    <asp:Label ID="Label5" runat="server" Text="$45.00"></asp:Label>
                 </li>
                 <li class="description">
-                    <asp:Label ID="Label7" runat="server" Text="Here is what you get"></asp:Label>
-                </li>
-                <li class="bullet-item">
-                    <asp:Label ID="Label8" runat="server" Text="More Info can go here"></asp:Label>
+                    <asp:Label ID="Label6" runat="server" Text="+ Shipping"></asp:Label>
                 </li>
                 <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
             </ul>
         </div>
-
+        <div class="small-12 medium-3 columns">
+            <ul class="pricing-table">
+                <li class="title">
+                    <asp:Label ID="Label7" runat="server" Text="Buy 5"></asp:Label>
+                </li>
+                <li class="price">
+                    <asp:Label ID="Label8" runat="server" Text="$70.00"></asp:Label>
+                </li>
+                <li class="description">
+                    <asp:Label ID="Label9" runat="server" Text="+ Shipping"></asp:Label>
+                </li>
+                <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+            </ul>
+        </div>
 
     </div>
 </asp:Content>

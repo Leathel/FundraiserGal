@@ -30,10 +30,10 @@
             </a>
             <%--////////////This and Social Media will link to home page and will float down to the bottom--%>
             <a class="item">
-                <img src="/assets/img/Logos/questionicon.png"/>
+                <img src="/assets/img/Logos/questionicon.png" />
                 <label>About</label>
             </a>
-            <a  href="/pages/Blogs.aspx"class="item">
+            <a href="/pages/Blogs.aspx" class="item">
                 <img src="/assets/img/Logos/signalicon.png" />
                 <label>Blog</label>
             </a>
@@ -48,66 +48,42 @@
         </div>
 
     </form>
-    <div class="small-12 columns" id="footer">
-        <%--<div class="small-12 columns" id="spacer50">
-        </div>
-        <hr />--%>
-        
-            <div class="small-12 columns show-for-small-only">
-                <div id="userInfo">
-                <div class="small-12 medium-5 columns">
-                    <h1 id="mainTitle">Contact</h1>
-                    <p><strong>Phone:</strong> 905-555-5555</p>
-                    <br />
-                    <p><strong>Email:</strong> email@adress.com</p>
-                </div>
-                <div class="small-12 medium-6 columns">
-                    <h1 id="mainTitle">Send me a message</h1>
-                    <h3 id="mainTitle">Your name</h3>
-                    <input type="text" />
-                    <h3 id="mainTitle">Your phone number</h3>
-                    <input type="tel" />
-                    <h3 id="mainTitle">Your email</h3>
-                    <input type="email" />
-                    <h3 id="mainTitle">Your address</h3>
-                    <input type="text" />
-                    <h3 id="mainTitle">Your message</h3>
-                    <textarea rows="5"></textarea>
-                    <a href="#" class="button success">Submit</a>
-                </div>
-            </div>
-            </div>
-            <div class="medium-7 columns">
-                <p id="footerTrademark">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    <%--//////////////////////Footer Begins//////////////////////--%>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="row full-width">
+            <div class="small-12 medium-3 large-4 columns">
+                <i class="fi-laptop"></i>
+                <p>
+                    I have helped raise funds for various organizations in the past including a hockey team, church youth group, and a ladies non-profit organization to name a few.  I personally used the cloth to raise money for the Hearth and Stroke Foundation and the Brain Tumor Foundation of Canada.<br /> This would be great in a school, retirement senior's apartment, sport's teams, etc.  How can I help your group???
                 </p>
             </div>
-            <div class="medium-5 columns show-for-medium-up">
-                 <div id="userInfo">
-                <div class="small-12 columns">
-                    <h1 id="mainTitle">Contact</h1>
-                    <p><strong>Phone:</strong> 905-555-5555</p>
-                    <br />
-                    <p><strong>Email:</strong> email@adress.com</p>
-                </div>
-                <div class="small-12 columns">
-                    <h1 id="mainTitle">Send me a message</h1>
-                    <h3 id="mainTitle">Your name</h3>
-                    <input type="text" />
-                    <h3 id="mainTitle">Your phone number</h3>
-                    <input type="tel" />
-                    <h3 id="mainTitle">Your email</h3>
-                    <input type="email" />
-                    <h3 id="mainTitle">Your address</h3>
-                    <input type="text" />
-                    <h3 id="mainTitle">Your message</h3>
-                    <textarea rows="5"></textarea>
-                    <a href="#" class="button success">Submit</a>
-                </div>
+            <div class="small-12 medium-3 large-4 columns">
+                <i class="fi-html5"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit impedit consequuntur at! Amet sed itaque nostrum, distinctio eveniet odio, id ipsam fuga quam minima cumque nobis veniam voluptates deserunt!</p>
             </div>
+            <div class="small-6 medium-3 large-2 columns">
+                <h4>Work With Me</h4>
+                <ul class="footer-links">
+                    <li><a href="#">What I Do</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQ's</a></li>
+                    <ul>
+            </div>
+            <div class="small-6 medium-3 large-2 columns">
+                <h4>Follow Me</h4>
+                <ul class="footer-links">
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Dribbble</a></li>
+                    <ul>
             </div>
         </div>
+    </footer>
     <script src="/js/vendor/jquery.js"></script>
     <script src="/js/foundation.min.js"></script>
     <script>
