@@ -18,6 +18,7 @@
                 Fundraising has become an important function of many organizations, including schools, churches, sports clubs, charities and more.  I would love to help your group achieve your goals with the KD Cloth Fundraiser.
 
 Here’s how you will succeed:
+                <%--added some comments--%>
             <ul>
                 <li>High Profit - Earn 50% on every cloth you sell in your fundraiser. 
                 </li>
