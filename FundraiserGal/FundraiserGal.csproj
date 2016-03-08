@@ -103,7 +103,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\img\Logos\carticon.png" />
-    <Content Include="assets\img\Logos\frontPageBanner.png" />
     <Content Include="assets\img\Logos\pingit.png" />
     <Content Include="assets\img\pics\croppedlauri.png" />
     <Content Include="assets\img\pics\IMG_0451.JPG" />
