@@ -6,9 +6,7 @@
     <div class="row" id="mainContent">
         <h1 id="mainTitle">Fundraising</h1>
         <hr />
-
-
-
+        <img src="../assets/img/Logos/Big Safe Logo.png" />
         <div id="spacer50" class="small-12 columns">
         </div>
         <img class="small-12 columns" src="../assets/img/PlaceHolders/1920x550.png" />
