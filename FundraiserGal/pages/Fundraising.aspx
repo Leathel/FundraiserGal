@@ -7,6 +7,8 @@
         <h1 id="mainTitle">Fundraising</h1>
         <hr />
 
+
+
         <div id="spacer50" class="small-12 columns">
         </div>
         <img class="small-12 columns" src="../assets/img/PlaceHolders/1920x550.png" />
